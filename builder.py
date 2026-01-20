@@ -6,14 +6,14 @@ def build_site():
         with open("config.json", "r", encoding="utf-8") as f:
             data = json.load(f)
     except FileNotFoundError:
-        print("Error: No se encontró 'config.json'")
+        print("Error: 'config.json' file not found")
         return
 
     try:
         with open("template.html", "r", encoding="utf-8") as f:
             template_str = f.read()
     except FileNotFoundError:
-        print("Error: No se encontró 'template.html'")
+        print("Error: 'template.html' file not found")
         return
 
     template = Template(template_str)
@@ -22,7 +22,7 @@ def build_site():
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(output_html)
     
-    print("¡Éxito! Tu tienda ha sido generada en 'index.html' usando config.json")
+    print("Success! Your store has been generated in 'index.html' using config.json")
 
 if __name__ == "__main__":
     build_site()
