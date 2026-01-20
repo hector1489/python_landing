@@ -1,0 +1,20 @@
+{
+    "store_name": "Mi Tienda de Software",
+    "description": "Herramientas premium desarrolladas en Python para automatización.",
+    "products": [
+        {
+            "name": "Futuristic Bio Link Website Template",
+            "price": "49.99",
+            "image": "https://payhip.com/cdn-cgi/image/format=auto,width=1500/https://pe56d.s3.amazonaws.com/o_1jf2b2ah8tt91mifk4h10rr45o1a.png",
+            "short_desc": "This template in Html | Js | Css features a stunning animated particle background and a modern glassmorphism design that reacts beautifully on any device..",
+            "link": "https://payhip.com/b/OwDFA"
+        },
+        {
+            "name": "DINDUSTRIAL VOTING - R3PTAR-DECISION",
+            "price": "29.00",
+            "image": "https://via.placeholder.com/300x200",
+            "short_desc": "R3PTAR-DECISION is a high-performance, executive-level frontend template designed for industrial decision-making, project approvals, and plant-wide voting systems. Built with the latest React 19, TypeScript, and Bootstrap 5, this kit provides a professional Steel & Safety aesthetic that meets the rigorous standards of enterprise software.",
+            "link": "https://payhip.com/b/L0Qb2"
+        }
+    ]
+}
