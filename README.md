@@ -1,96 +1,109 @@
 # Python Payhip Storefront Generator
 
-This is a **minimalist, high-performance** landing page generator specifically designed for developers selling software on Payhip. Create a professional showcase for your scripts, bots, or applications in seconds using Python.
+This is a minimalist, high-performance landing page generator specifically designed for developers selling software on Payhip. Create a professional showcase for your scripts, bots, or applications in seconds with a modern web interface.
 
-## Features
+## New Features (v2.1)
 
-* **Dark Mode Design:** Modern aesthetics optimized for tech products.
-* **Fully Responsive:** Looks perfect on mobile, tablets, and desktops.
-* **Easy to Configure:** No HTML/CSS knowledge required—just edit a JSON or Python file.
-* **SEO Friendly:** Optimized for search engines to find your products easily.
+Web Admin Panel: Manage your products through an intuitive UI—no more manual JSON editing.
 
-## Installation
+Build History: Keep track of all your generated storefronts and download them anytime.
 
-1.  **Clone this repository:**
+Docker Support: Run the generator anywhere without worrying about Python dependencies.
 
-    ```bash
-    git clone [https://github.com/hector1489/python_landing.git](https://github.com/hector1489/python_landing.git)
-    cd python_landing
-    ```
+Dark Mode Design: Modern glassmorphism aesthetics optimized for tech products.
 
-2.  **Install necessary dependencies:**
+Fully Responsive: Optimized for mobile, tablets, and desktops.
 
-    ```bash
-    pip install jinja2
-    ```
+## Installation & Setup
+
+Option 1: Using Docker (Recommended)
+Clone & Run:
+
+   git clone https://github.com/hector1489/python_landing.git
+   cd python_landing
+   docker-compose up --build
+
+Open your browser at http://localhost:5000.
+
+Option 2: Local Installation (Manual)
+
+Install dependencies:
+
+   pip install flask jinja2
+
+Run the app:
+
+   python app.py
 
 ## How to Use
 
-1.  Open the `config.json` file.
-2.  Edit the product list with your own links, prices, and images.
-3.  Run the generator:
+Access the Admin Panel via your browser.
 
-    ```bash
-    python builder.py
-    ```
+Fill in your store name and description.
 
-Done! Upload the resulting `index.html` file to **GitHub Pages**, **Netlify**, or your own hosting provider.
+Add your products (Name, Price, Image, and Payhip Link).
+
+Click "Build & Download".
+
+Your files are automatically saved in the /builds folder and available in the Build History table.
 
 ## Created By
 
-This template is free for the community. If you like it, feel free to check out my premium tools at my official store:
+Check out my premium tools at my official store: Visit my Payhip Store
 
-### Visit my Payhip Store
+https://payhip.com/R3ptar
 
- [https://payhip.com/R3ptar](https://payhip.com/R3ptar)
+## SPANISH
 
+Este es un generador de landing pages minimalista y de alto rendimiento diseñado para desarrolladores. Crea una vitrina profesional para tus scripts o aplicaciones en segundos mediante una interfaz web moderna.
 
-# SPANISH 
+## Nuevas Características (v2.1)
 
+Panel de Administración Web: Gestiona tus productos mediante una interfaz intuitiva.
 
-# Python Payhip Storefront Generator
+Historial de Builds: Mantén un registro de todas tus tiendas generadas y descárgalas cuando quieras.
 
-Este es un generador de landing pages **minimalista y de alto rendimiento** diseñado específicamente para desarrolladores que venden software en Payhip. Crea una vitrina profesional para tus scripts, bots o aplicaciones en segundos usando Python.
+Soporte Docker: Ejecuta el generador en cualquier lugar sin preocuparte por dependencias.
 
-## Características
+Diseño Dark Mode: Estética moderna de glassmorphism optimizada para software.
 
-* **Diseño Dark Mode:** Estética moderna optimizada para productos tecnológicos.
+Totalmente Responsivo: Diseño perfecto en móviles, tablets y escritorio.
 
-* **Totalmente Responsivo:** Se ve perfecto en móviles, tablets y escritorio.
+## Instalación y Configuración
 
-* **Fácil de Configurar:** No necesitas saber HTML/CSS, solo editar un archivo JSON o Python.
+Opción 1: Usando Docker (Recomendado)
+Clonar y Ejecutar:
 
-* **SEO Friendly:** Optimizado para que los motores de búsqueda encuentren tus productos.
+   git clone https://github.com/hector1489/python_landing.git
+   cd python_landing
+   docker-compose up --build
 
+Abre tu navegador en http://localhost:5000.
 
-## Instalación
+Opción 2: Instalación Local (Manual)
 
-1. Clona este repositorio:
+Instalar dependencias:
 
-   git clone [https://github.com/hector1489/python_landing.git](https://github.com/hector1489/python_landing.git)
+   pip install flask jinja2
 
-Instala las dependencias necesarias:
+Ejecutar:
 
-   pip install jinja2
-
+   python app.py
 
 ## Cómo usarlo
 
-Abre el archivo config.json.
+Accede al Panel de Administración desde tu navegador.
 
-Edita la lista de productos con tus propios enlaces, precios e imágenes.
+Configura el nombre y descripción de tu tienda.
 
-Ejecuta el generador:
+Añade tus productos (Nombre, Precio, Imagen y Link de Payhip).
 
-   python builder.py
+Haz clic en "Build & Download".
 
-
-¡Listo! Sube el archivo index.html resultante a GitHub Pages, Netlify o tu propio hosting.
+Los archivos se guardan automáticamente en la carpeta /builds y aparecen en la tabla de Historial.
 
 ## Creado por
 
-Este template es gratuito para la comunidad. Si te gusta, echa un vistazo a mis herramientas premium en mi tienda oficial:
+Echa un vistazo a mis herramientas premium en mi tienda oficial: Visita mi Tienda en Payhip:
 
-## Visita mi Tienda en Payhip
-
-   https://payhip.com/R3ptar
+https://payhip.com/R3ptar
